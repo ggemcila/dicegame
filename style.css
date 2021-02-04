@@ -14,7 +14,15 @@ body{
     margin-top: 12%;  
     border: 3px solid white;
     padding-top: 4%;
-    padding-bottom: 20%;
+    padding-bottom: 12%;
     padding-left: 11%;
     padding-right: 8%;
+}
+
+.roll{
+    margin-left: 50%;   
+}
+.number{
+    margin-left: 30%;
+    margin-top: 20%;
 }
