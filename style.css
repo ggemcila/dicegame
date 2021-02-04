@@ -18,7 +18,7 @@ body{
     padding-left: 11%;
     padding-right: 11%;
 }
-.item{
+p{
     margin-left: 11%;
 }
 #roll{
@@ -29,6 +29,6 @@ body{
     margin-left: 44%;
     margin-top: 20%;
 }
-#image1{
-      padding-top: 10%;
+img{
+    width: 200px;
 }
