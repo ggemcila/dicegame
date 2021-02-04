@@ -12,18 +12,11 @@ function game()
 
     if (randomNo == 1) {
         document.querySelector('h1').innerHTML = 'You lost!';     
-<<<<<<< HEAD
     }else if(score < 20) {
         document.querySelector('h1').innerHTML = 'Roll';  
     }else{
         document.querySelector('h1').innerHTML = 'Winner!!!';  
         score = 0;              
-=======
-    }else if(score <= 20) {
-        document.querySelector('h1').innerHTML = 'Roll';  
-    }else{
-        document.querySelector('h1').innerHTML = 'Winner!!!';         
->>>>>>> develop
     }
 };
 
