@@ -1,5 +1,4 @@
 const rollButton = document.getElementById('roll');
- 
 
 rollButton.addEventListener("click", () => {
     const randomNo = Math.floor(Math.random()*6)+1;
@@ -7,9 +6,12 @@ rollButton.addEventListener("click", () => {
     document.querySelectorAll('img')[0].setAttribute('src', diceImage);
     if (randomNo == 1) {
         document.querySelector('h1').innerHTML = 'You lost!';
-    }else{
+    }else {
         document.querySelector('h1').innerHTML = 'Roll';  
+        document.querySelector('#score').innerHTML = 'Score: ' + randomNo;
     }
 });
+
+ 
 
  
