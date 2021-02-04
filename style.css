@@ -32,3 +32,9 @@ p{
 img{
     width: 200px;
 }
+
+h1{
+    font-family: 'Source Code Pro', "monospace";
+    font-size: 30px;
+    text-align: center;
+}
