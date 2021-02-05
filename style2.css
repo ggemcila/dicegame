@@ -1,5 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600;700&display=swap');
+
 body{
     margin:0;
     background: linear-gradient(90deg, orange, rgb(255, 99, 71));
     font-family: 'Source Code Pro', "monospace";
+    
 }
+.wrapper{
+    width:7;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.area1{
+   padding-right: 15%;
+   padding-top: 10%;
+}
+.area2{
+    padding-left: 15%;
+    padding-top: 10%;
+ }
+ p{
+     font-size: 30px;
+     
+ }
+
