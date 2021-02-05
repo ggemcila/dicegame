@@ -1,0 +1,5 @@
+body{
+    margin:0;
+    background: linear-gradient(90deg, orange, rgb(255, 99, 71));
+    font-family: 'Source Code Pro', "monospace";
+}
