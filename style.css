@@ -23,7 +23,7 @@ p{
 }
 #roll{
     margin-left: 43%;
-    margin-top: 30%;
+    
 }
 .score{
     margin-left: 44%;
@@ -37,4 +37,7 @@ h1{
     font-family: 'Source Code Pro', "monospace";
     font-size: 30px;
     text-align: center;
+}
+#start{
+    margin-left: 30%;
 }
